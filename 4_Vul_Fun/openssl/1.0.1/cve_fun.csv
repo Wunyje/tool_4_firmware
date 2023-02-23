@@ -1,0 +1,23 @@
+CVE-number,Pure Vulnerability Function
+CVE-2013-6449,ssl_get_algorithm2
+CVE-2013-4353,ssl3_take_mac
+CVE-2014-3572,ssl3_get_key_exchange
+CVE-2014-3571,dtls1_get_record
+CVE-2014-3569,ssl23_get_client_hello
+CVE-2014-3567,tls_decrypt_ticket
+CVE-2014-3511,ssl23_get_client_hello
+CVE-2014-3510,ssl3_send_client_key_exchange
+CVE-2014-3470,ssl3_send_client_key_exchange
+CVE-2014-0221,dtls1_get_message_fragment
+CVE-2014-0198,do_ssl3_write
+CVE-2014-0195,dtls1_reassemble_fragment
+CVE-2015-1794,ssl3_get_key_exchange
+CVE-2015-1787,ssl3_get_client_key_exchange
+CVE-2015-0290,ssl3_write_bytes
+CVE-2015-0285,ssl3_client_hello
+CVE-2015-0207,dtls1_listen
+CVE-2015-0206,dtls1_buffer_record
+CVE-2015-0205,ssl3_get_cert_verify
+CVE-2015-0204,ssl3_get_key_exchange
+CVE-2016-0704,get_client_master_key
+CVE-2016-0703,get_client_master_key
