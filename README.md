@@ -23,7 +23,6 @@ conda install scipy=1.8.0
 ```
 ##### 卸载环境
 ```
-
 conda remove -n vulseeker-tf22 --all
 ```
 #### IDA pro环境

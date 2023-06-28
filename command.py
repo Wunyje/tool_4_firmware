@@ -6,7 +6,7 @@ import subprocess
 import glob
 
 ### 生成
-[G_GENERATE,G0_GEN_IDB_FILE,G1_GEN_FEA ]= [0,1,1]
+[G_GENERATE,G0_GEN_IDB_FILE,G1_GEN_FEA ]= [1,1,1]
 if G_GENERATE:
     if G0_GEN_IDB_FILE:
         print("G0. 将二进制文件反汇编")
