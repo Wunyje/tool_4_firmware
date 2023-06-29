@@ -6,7 +6,7 @@ import subprocess
 import glob
 
 ### 生成
-[G_GENERATE,G0_GEN_IDB_FILE,G1_GEN_FEA ]= [1,1,1]
+[G_GENERATE,G0_GEN_IDB_FILE,G1_GEN_FEA ]= [1,0,1]
 if G_GENERATE:
     if G0_GEN_IDB_FILE:
         print("G0. 将二进制文件反汇编")
@@ -64,7 +64,7 @@ if T_TRAIN:
         else:
             test()
 ### 搜索
-[S_SEARCH,S0_GEN_VUL_DATA,S1_RUN_FOR_SEARCH,S2_RES_ANALYSIS] = [1,0,1,1]
+[S_SEARCH,S0_GEN_VUL_DATA,S1_RUN_FOR_SEARCH,S2_RES_ANALYSIS] = [0,0,1,1]
 if S_SEARCH:
     if S0_GEN_VUL_DATA:
         from s0_gen_vul_data import gen_vul_sheet
